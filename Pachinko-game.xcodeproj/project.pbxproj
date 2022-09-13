@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		226E738F28CE4FA0005C6E84 /* FireParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 226E738E28CE4FA0005C6E84 /* FireParticles.sks */; };
 		22AE94B028CBAA5600978AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AE94AF28CBAA5600978AAE /* AppDelegate.swift */; };
 		22AE94B228CBAA5600978AAE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22AE94B128CBAA5600978AAE /* GameScene.sks */; };
-		22AE94B428CBAA5600978AAE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22AE94B328CBAA5600978AAE /* Actions.sks */; };
 		22AE94B628CBAA5600978AAE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AE94B528CBAA5600978AAE /* GameScene.swift */; };
 		22AE94B828CBAA5600978AAE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AE94B728CBAA5600978AAE /* GameViewController.swift */; };
 		22AE94BB28CBAA5600978AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AE94B928CBAA5600978AAE /* Main.storyboard */; };
@@ -18,10 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		226E738E28CE4FA0005C6E84 /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticles.sks; sourceTree = "<group>"; };
 		22AE94AC28CBAA5600978AAE /* Pachinko-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pachinko-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AE94AF28CBAA5600978AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22AE94B128CBAA5600978AAE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		22AE94B328CBAA5600978AAE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		22AE94B528CBAA5600978AAE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		22AE94B728CBAA5600978AAE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		22AE94BA28CBAA5600978AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,12 +61,12 @@
 			children = (
 				22AE94AF28CBAA5600978AAE /* AppDelegate.swift */,
 				22AE94B128CBAA5600978AAE /* GameScene.sks */,
-				22AE94B328CBAA5600978AAE /* Actions.sks */,
 				22AE94B528CBAA5600978AAE /* GameScene.swift */,
 				22AE94B728CBAA5600978AAE /* GameViewController.swift */,
 				22AE94B928CBAA5600978AAE /* Main.storyboard */,
 				22AE94BC28CBAA5800978AAE /* Assets.xcassets */,
 				22AE94BE28CBAA5800978AAE /* LaunchScreen.storyboard */,
+				226E738E28CE4FA0005C6E84 /* FireParticles.sks */,
 			);
 			path = "Pachinko-game";
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 			files = (
 				22AE94BB28CBAA5600978AAE /* Main.storyboard in Resources */,
 				22AE94B228CBAA5600978AAE /* GameScene.sks in Resources */,
+				226E738F28CE4FA0005C6E84 /* FireParticles.sks in Resources */,
 				22AE94BD28CBAA5800978AAE /* Assets.xcassets in Resources */,
 				22AE94C028CBAA5800978AAE /* LaunchScreen.storyboard in Resources */,
-				22AE94B428CBAA5600978AAE /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +299,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +311,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -327,7 +328,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
